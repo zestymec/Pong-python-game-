@@ -12,3 +12,5 @@ pong python game
 6. detect collision with padde;
 7. detect when paddle misses
 8. keep score  
+day 23 done 
+last project needs to be review
