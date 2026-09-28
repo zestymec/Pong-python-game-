@@ -1,7 +1,7 @@
 pong python game
 1. rando movement of the ball but be attaced wit previous movement 
 2. 2 sides bar and their controll from btn and going to be out from wall s
-163 first
+163 done 
 
 
 1. create screen
