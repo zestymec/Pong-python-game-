@@ -1,24 +1,28 @@
-from turtle import Screen, Turtle
+import time
+from turtle import Screen
 from paddle import Paddle
+from ball import Ball
 
-Screen = Screen()
-Screen.bgcolor("black")
-Screen.setup(800, 600)
-Screen.title("Pong")
-Screen.tracer(0)
+screen = Screen()
+screen.bgcolor("black")
+screen.setup(width=800, height=600)
+screen.title("Pong")
+screen.tracer(0)
 
+l_paddle = Paddle((-350, 0))
+r_paddle = Paddle((350, 0))
+ball = Ball()
 
-l_paddel = Paddle((-350, 0))
-r_paddel = Paddle((350, 0))
-
-Screen.listen()
-Screen.onkey(r_paddel.go_up, "UP")
-Screen.onkey(r_paddel.go_down, "Down")
-Screen.onkey(l_paddel.go_up, "w")
-Screen.onkey(l_paddel.go_down, "s")
+screen.listen()
+screen.onkey(r_paddle.go_up, "Up")
+screen.onkey(r_paddle.go_down, "Down")
+screen.onkey(l_paddle.go_up, "w")
+screen.onkey(l_paddle.go_down, "s")
 
 game_is_on = True
 while game_is_on:
-    Screen.update()
+    time.sleep(0.1)
+    screen.update()
+    ball.move()
 
-Screen.exitonclick()
+screen.exitonclick()
