@@ -1,9 +1,6 @@
 pong python game
 1. rando movement of the ball but be attaced wit previous movement 
 2. 2 sides bar and their controll from btn and going to be out from wall s
-172 done 
-
-
 1. create screen
 2. create move paddle
 3. create another paddle 
@@ -12,5 +9,7 @@ pong python game
 6. detect collision with padde;
 7. detect when paddle misses
 8. keep score  
-day 23 done 
 last project needs to be review
+turtle crsiing capstone game project !
+day 24
+182
