@@ -13,8 +13,8 @@ class Scoreboard(Turtle):
         self.hideturtle()
 
     def upda_Scoreboard(self):
-        self.clear
-        self.write(f"Score: {self.score}", align="center", font=("Arial", 24, "normal"))
+        self.clear()
+        self.write(f"Score: {self.score} HightScore : {self.high_score}", align="center", font=("Arial", 24, "normal"))
 
     def increase_score(self):
         self.score += 1
