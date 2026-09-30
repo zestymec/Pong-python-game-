@@ -12,7 +12,8 @@ pong python game
 last project needs to be review
 turtle crsiing capstone game project !
 day 24
-182 done
 working with directories and files
 added feature to record hoghest score in snake game 
-how to read and write in to the file throug python 
+how to ope nd read and write in to the file throug python
+mode for read write and append 
+183 done 
