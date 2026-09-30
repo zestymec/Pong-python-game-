@@ -12,4 +12,6 @@ pong python game
 last project needs to be review
 turtle crsiing capstone game project !
 day 24
-182
+182 now
+working with directories and files
+added feature to record hoghest score in snake game 
