@@ -16,4 +16,6 @@ working with directories and files
 added feature to record hoghest score in snake game 
 how to ope nd read and write in to the file throug python
 mode for read write and append 
-183 done 
+UNDER REALTED AND ABSOLUTE FILE PATHS and mail merging
+
+185 done 
