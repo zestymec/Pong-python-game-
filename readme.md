@@ -17,5 +17,5 @@ added feature to record hoghest score in snake game
 how to ope nd read and write in to the file throug python
 mode for read write and append 
 UNDER REALTED AND ABSOLUTE FILE PATHS and mail merging
-
+replace and readfils and strip methods in pythoin !
 185 done 
